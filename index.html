@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Minimal</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/iconsFont.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__border">
+         <div class="header__item">
+            <img src="img/icons/logo.png" alt="" class="header__logo">
+         </div>
+         <div class="header__menu">
+            <nav class="header__buttons">
+               <a class="menu__icon" onclick="showSideMenu()"></a>
+               <a href="#start" class="header__button _title__button">Start</a>
+               <a href="#footer" class="header__button _title__button">Contact</a>
+               <a href="#services" class="header__button _title__button">Our history</a>
+            </nav>
+            <div id="side-menu" class="side-nav" onclick="hideSideMenu()">
+               <a class="close">&times;</a>
+               <a href="#start">Start</a>
+               <a href="#footer">Contact</a>
+               <a href="#services">Our history</a>
+               <a href="#">Book now</a>
+            </div>
+         </div>
+         <div class="header__item">
+            <form action="#">
+               <input class="button _button" type="button" value="Book now">
+            </form>
+         </div>
+      </div>
+   </header>
+   <main>
+      <!-- BANNER -->
+      <div class="banner" id="start">
+         <div class="banner__dark">
+            <div class="banner__border">
+               <div class="banner__block">
+                  <img src="img/icons/logo.png" alt="" class="banner__img _logo">
+                  <div class="banner__title">
+                     Experience the perfect combination of modern housing & natural scenery.
+                  </div>
+                  <div class="banner__subtitle">
+                     Located in Lofoten, norway
+                  </div>
+               </div>
+               <div class="banner__block">
+                  <img src="img/icons/mouse.png" alt="" class="banner__img">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- BLOCK -->
+      <div class="block">
+         <img src="img/panel icon/orange__line.svg" alt="" class="orange__line">
+         <div class="block__title">
+            The Guest House is the perfect weekend getaway cabin.
+         </div>
+      </div>
+      <!-- BACKGROUND -->
+      <div class="background">
+      </div>
+      <!-- ROOMS -->
+      <div class="rooms">
+         <div class="rooms__border">
+            <img src="img/panel icon/orange__line.svg" alt="" class="orange__line">
+            <div class="rooms__item">
+               <div class="rooms__Title">
+                  Sleeping arrangements.
+               </div>
+               <div class="rooms__subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.
+                  Nulla rhoncus feugiat eros quis consectetur.
+               </div>
+            </div>
+            <div class="rooms__item">
+               <div class="rooms__columns">
+                  <div class="rooms__column">
+                     <img src="img/icons/bed.svg" alt="" class="column__img">
+                     <div class="column__title">
+                        Beds
+                     </div>
+                     <div class="column__text">
+                        The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes linens for all
+                        beds.
+                     </div>
+                  </div>
+                  <div class="rooms__column">
+                     <img src="img/icons/door.svg" alt="" class="column__img">
+                     <div class="column__title">
+                        Bedrooms
+                     </div>
+                     <div class="column__text">
+                        Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds per room.
+                     </div>
+                  </div>
+                  <div class="rooms__column">
+                     <img src="img/icons/bath.svg" alt="" class="column__img">
+                     <div class="column__title">
+                        Bathrooms
+                     </div>
+                     <div class="column__text">
+                        The cabin has three bathrooms, all equipped with showers and one with a bath tub,
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- SERVICES -->
+      <div class="services" id="services">
+         <div class="services__border">
+            <img src="img/panel icon/orange__line.svg" alt="" class="orange__left">
+            <div class="services__item">
+               <div class="services__title">
+                  The perfect escape.
+               </div>
+               <div class="services__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.
+                  Nulla rhoncus feugiat eros quis consectetur.
+               </div>
+            </div>
+            <div class="services__item">
+               <div class="services__list">
+                  <div class="list__block">
+                     <img src="img/icons__block/Coffee__Maker.svg" alt="" class="list__img">
+                     <div class="list__column">
+                        <div class="list__title">
+                           Coffee Maker
+                        </div>
+                        <div class="list__text">
+                           Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci
+                           tincidunt.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="list__block">
+                     <img src="img/icons__block/oven.svg" alt="" class="list__img">
+                     <div class="list__column">
+                        <div class="list__title">
+                           Modern Kitchen Appliances
+                        </div>
+                        <div class="list__text">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="list__block">
+                     <img src="img/icons__block/spruce.svg" alt="" class="list__img">
+                     <div class="list__column">
+                        <div class="list__title">
+                           Outdoor Paths
+                        </div>
+                        <div class="list__text">
+                           Nulla rhoncus feugiat eros quis consectetur.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="list__block">
+                     <img src="img/icons__block/Conditioner.svg" alt="" class="list__img">
+                     <div class="list__column">
+                        <div class="list__title">
+                           Air Conditioner
+                        </div>
+                        <div class="list__text">
+                           Nullam scelerisque aliquam odio et faucibus.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="services__list">
+                  <div class="list__block">
+                     <img src="img/icons__block/mountains.svg" alt="" class="list__img">
+                     <div class="list__column">
+                        <div class="list__title">
+                           Natural Scenery
+                        </div>
+                        <div class="list__text">
+                           Cras commodo consequat orci, in convallis risus egestas non.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="list__block">
+                     <img src="img/icons__block/backpack.svg" alt="" class="list__img">
+                     <div class="list__column">
+                        <div class="list__title">
+                           Storage Solutions
+                        </div>
+                        <div class="list__text">
+                           Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="list__block">
+                     <img src="img/icons__block/wineglass.svg" alt="" class="list__img">
+                     <div class="list__column">
+                        <div class="list__title">
+                           Cutlery Selection
+                        </div>
+                        <div class="list__text">
+                           Duis tristique sed lorem a vestibulum.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="list__block">
+                     <img src="img/icons__block/pizza.svg" alt="" class="list__img">
+                     <div class="list__column">
+                        <div class="list__title">
+                           Take-away Options
+                        </div>
+                        <div class="list__text">
+                           Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="review">
+         <img src="img/panel icon/orange__line.svg" alt="" class="orange__line">
+         <div class="review__content ">
+            <div class="review__title">
+               Past guests.
+            </div>
+            <div class="review__subtitle">
+               Don't take our word for it! Have a look at what our previous guests say about their stay at the Guest
+               House.
+            </div>
+         </div>
+         <div class="review__swiper-review swiper">
+            <div class="swiper-review__wrapper swiper-wrapper">
+               <div class="swiper-review__slide swiper-slide">
+                  <div class="swiper-review__stars">
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                  </div>
+                  <div class="swiper-review__title">
+                     We had an amazing stay at the Guest House!
+                  </div>
+                  <div class="swiper-review__text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                     tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                     vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                     tristique posuere.
+                  </div>
+                  <div class="swiper-review__name _icon-left-line">
+                     Nate Davidsson
+                  </div>
+               </div>
+               <div class="swiper-review__slide swiper-slide">
+                  <div class="swiper-review__stars">
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-star"></span>
+                  </div>
+                  <div class="swiper-review__title">
+                     Beautiful little hideaway.
+                  </div>
+                  <div class="swiper-review__text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                     tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                     vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+                  </div>
+                  <div class="swiper-review__name _icon-left-line">
+                     Laura Paulie
+                  </div>
+               </div>
+               <div class="swiper-review__slide swiper-slide">
+                  <div class="swiper-review__stars">
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-fill-star"></span>
+                     <span class="swiper-review__star _icon-star"></span>
+                     <span class="swiper-review__star _icon-star"></span>
+                  </div>
+                  <div class="swiper-review__title">
+                     Best vacation ever!
+                  </div>
+                  <div class="swiper-review__text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                     tristique.
+                  </div>
+                  <div class="swiper-review__name _icon-left-line">
+                     Greg Todd
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-review__buttons-container">
+               <div class="swiper-review__button-prev"></div>
+               <div class="swiper-review__button-next"></div>
+            </div>
+         </div>
+      </div>
+      <!-- BACKGROUND 2 -->
+      <div class="background__two">
+      </div>
+      <!-- DIGNITY -->
+      <div class="dignity">
+         <div class="dignity__content">
+            <div class="dignity__columns">
+               <div class="dignity__column-block">
+                  <img src="img/panel icon/orange__line.svg" alt="" class="orange__left">
+                  <div class="dignity__title">
+                     Come together.
+                  </div>
+                  <div class="dignity__subtitle">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
+                     faucibus.
+                  </div>
+               </div>
+               <div class="dignity__column-items">
+                  <div class="dignity__column-item">
+                     <div class="column-item__icon _icon-wi-fi"></div>
+                     <div class="column-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                  </div>
+                  <div class="dignity__column-item">
+                     <div class="column-item__icon _icon-bread"></div>
+                     <div class="column-item__text">Nullam scelerisque aliquam odio et faucibus.</div>
+                  </div>
+                  <div class="dignity__column-item">
+                     <div class="column-item__icon _icon-hanger"></div>
+                     <div class="column-item__text">Nulla rhoncus feugiat eros quis consectetur.</div>
+                  </div>
+                  <div class="dignity__column-item">
+                     <div class="column-item__icon _icon-knife-fork"></div>
+                     <div class="column-item__text">Morbi neque ex, condimentum.</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <section class="booking">
+         <img src="img/panel icon/orange__line.svg" alt="" class="orange__line">
+         <div class="booking__container">
+            <div class="booking__title">
+               We're already booked up for the spring — hurry up & secure your stay for the summer.
+            </div>
+            <div class="booking__subtitle">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.
+            </div>
+            <div class="booking__buttons">
+               <form action="#home" class="booking__buttons">
+                  <input type="submit" value="Contact" class="booking__button-one">
+                  <input type="submit" value="Book now" class="booking__button-two">
+               </form>
+            </div>
+         </div>
+      </section>
+   </main>
+   <!-- FOOTER -->
+   <footer class="footer" id="footer">
+      <section>
+         <div class="footer__container">
+            <div class="footer__column-pages footer-column">
+               <div class="footer__column-title">
+                  Pages
+               </div>
+               <nav class="footer__title-links">
+                  <ul class="footer__title-links">
+                     <li>
+                        <a href="#" class="footer__title-link">Start</a>
+                     </li>
+                     <li>
+                        <a href="#" class="footer__title-link">Contact</a>
+                     </li>
+                     <li>
+                        <a href="#" class="footer__title-link">Our history</a>
+                     </li>
+                     <li>
+                        <a href="#" class="footer__title-link">Licenses</a>
+                     </li>
+                     <li>
+                        <a href="#" class="footer__title-link">Instructions</a>
+                     </li>
+                     <li>
+                        <a href="#" class="footer__title-link">Style guide</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="footer__column-social footer-column">
+               <div class="footer__column-title">
+                  Social Media
+               </div>
+               <nav class="footer__social-links">
+                  <a href="#" class="footer__social-link _icon-Shape"></a>
+                  <a href="#" class="footer__social-link _icon-Facebook"></a>
+                  <a href="#" class="footer__social-link _icon-instagram"></a>
+               </nav>
+            </div>
+            <div class="footer__column-email footer-column">
+               <div class="footer__column-title">
+                  Newsletter
+               </div>
+               <div class="footer__column-subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                  tristique.
+               </div>
+               <form action="#submit" class="footer__column-form">
+                  <input type="text" placeholder="Email" class="footer__column-input">
+                  <input type="submit" value="Submit" class="footer__column-button">
+               </form>
+            </div>
+            <div class="footer__block-copyright">
+               <div>
+                  <img src="/img/icons/logo.png" alt="" class="block-copyright__logo">
+               </div>
+               <div class="block-copyright__copyright">
+                  © Guest House, LLC. All rights reserved. Powered by Webflow
+               </div>
+               <div class="block-copyright__contacts">
+                  +47 (0) 702 88 12 34 — example@webflow.io — Klubbvika 12, 8310 Kabelvag, Norway
+               </div>
+            </div>
+         </div>
+      </section>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script>
+      function showSideMenu() {
+         document.getElementById('side-menu').style.width = '100vw';
+      }
+      function hideSideMenu() {
+         document.getElementById('side-menu').style.width = '0';
+      }
+   </script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
